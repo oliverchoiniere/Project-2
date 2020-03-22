@@ -1,0 +1,35 @@
+* {
+    font-family: roboto;
+}
+
+header {
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.hi {
+    color: gray;
+    margin: 0 10%;
+    padding: 10% 0;
+}
+
+.main-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li {
+    padding: .75em;
+    background-color: white;
+    margin: .5em 1em;
+}
+
+
+
+.profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
