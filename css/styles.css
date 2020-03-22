@@ -25,11 +25,87 @@ header {
     margin: .5em 1em;
 }
 
-
-
 .profile-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    margin-top: 2em;
+    width: 60%;
+}
+
+a:visited {
+    text-decoration: none;
+    color:  black;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 1em;
+    padding: 1.5em 0;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 1em;
+}
+
+.portfolio p{
+    margin: 1em auto;
+    width: 85%;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+footer {
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 2em;
+    margin-top: 2em;
+}
+
+.contact p {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.par {
+    padding-bottom: 1em;
+}
+
+.contact h2 {
+    font-size: 1em;
+    margin: 2em 0;
+}
+
+.bottom {
+    border-top: solid black 1px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: .75em;
+}
+
+.name {
+    float: left;
+}
+
+.back-to-top {
+    float: right;
 }
