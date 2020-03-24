@@ -139,6 +139,51 @@ footer {
         font-size: 1.2em;
     }
 
+    .marketing {
+        float: left;
+        width: 45%;
+        margin-left: 2em;
+    }
+
+    .search {
+        float: right;
+        width: 45%;
+        margin-right: 2em;
+    }
+
+    .travel {
+        float: left;
+        width: 45%;
+        margin-left: 2em;
+    }
+
+    .map {
+        float: right;
+        width: 45%;
+        margin-right: 2em;
+    }
+
+    .gallery {
+        float: left;
+        width: 45%;
+        margin-left: 2em;
+    }
+
+    .calculator {
+        float: right;
+        width: 45%;
+        margin-right: 2em;
+    }
+
+    .portfolio p {
+        width: 80%;
+        margin-bottom: 2.5em;
+    }
+
+    .par {
+        width: 65%;
+    }
+
     .clearfix::after {
         content: "";
         clear: both;
