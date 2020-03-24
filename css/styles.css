@@ -9,6 +9,10 @@ header {
     padding-top: 2%;
 }
 
+.wrapper {
+    white-space: normal;
+}
+
 .hi {
     color: gray;
     margin: 0 10%;
@@ -176,7 +180,9 @@ footer {
     }
 
     .portfolio p {
-        width: 80%;
+        float: center;
+        text-align: center;
+        width: 70%;
         margin-bottom: 2.5em;
     }
 
@@ -189,4 +195,84 @@ footer {
         clear: both;
         display: table;
       }
+}
+
+@media (min-width: 1024px) {
+    .main-content h2{
+        padding-top: 3em;
+        margin-bottom: 2em;
+    }
+
+    h1 {
+        float: left;
+        margin-left: 1.1em;
+        margin-right: 10em;
+    }
+
+    .wrapper {
+        background-color: #fafafa;
+    }
+
+    .main-content {
+        background-color: white;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .marketing {
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .search {
+        float: left;
+        width: 33%;
+        margin-left: .3em;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .travel {
+        float: right;
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .map {
+        float: left;
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .gallery {
+        width: 33%;
+        margin-left: .3em;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .calculator {
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .par {
+        width: 50%;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
 }
