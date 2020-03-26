@@ -87,6 +87,16 @@ footer {
     margin-right: auto;
 }
 
+.home-foot,
+.portfolio-foot,
+.contact-foot {
+    display: none;
+}
+
+.footer-nav {
+    list-style: none;
+}
+
 .par {
     padding-bottom: 1em;
 }
@@ -180,7 +190,6 @@ footer {
     }
 
     .portfolio p {
-        float: center;
         text-align: center;
         width: 70%;
         margin-bottom: 2.5em;
@@ -188,6 +197,17 @@ footer {
 
     .par {
         width: 65%;
+    }
+
+    .footer-nav li {
+        display: inline-block;
+        float: right;
+        padding-left: 2em;
+        padding-right: 0;
+    }
+
+    .footer-nav li:first-child {
+        display: none;
     }
 
     .clearfix::after {
